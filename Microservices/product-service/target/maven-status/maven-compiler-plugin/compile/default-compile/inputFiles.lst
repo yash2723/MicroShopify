@@ -1,0 +1,7 @@
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\dto\ProductResponse.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\model\Product.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\ProductServiceApplication.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\repository\ProductRepository.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\dto\ProductRequest.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\controller\ProductController.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\product-service\src\main\java\com\yash\productservice\service\ProductService.java

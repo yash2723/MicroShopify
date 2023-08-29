@@ -1,0 +1,5 @@
+com\yash\inventoryservice\InventoryServiceApplication.class
+com\yash\inventoryservice\model\Inventory.class
+com\yash\inventoryservice\repository\InventoryRepository.class
+com\yash\inventoryservice\service\InventoryService.class
+com\yash\inventoryservice\controller\InventoryController.class

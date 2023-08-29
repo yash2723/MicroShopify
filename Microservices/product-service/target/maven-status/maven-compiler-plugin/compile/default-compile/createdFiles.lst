@@ -1,0 +1,10 @@
+com\yash\productservice\dto\ProductRequest$ProductRequestBuilder.class
+com\yash\productservice\ProductServiceApplication.class
+com\yash\productservice\controller\ProductController.class
+com\yash\productservice\dto\ProductResponse$ProductResponseBuilder.class
+com\yash\productservice\dto\ProductRequest.class
+com\yash\productservice\dto\ProductResponse.class
+com\yash\productservice\model\Product.class
+com\yash\productservice\repository\ProductRepository.class
+com\yash\productservice\model\Product$ProductBuilder.class
+com\yash\productservice\service\ProductService.class
