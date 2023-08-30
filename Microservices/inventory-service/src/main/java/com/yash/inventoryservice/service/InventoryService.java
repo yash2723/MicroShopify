@@ -1,7 +1,7 @@
 package com.yash.inventoryservice.service;
 
 import com.yash.inventoryservice.repository.InventoryRepository;
-import dto.InventoryResponse;
+import com.yash.inventoryservice.dto.InventoryResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

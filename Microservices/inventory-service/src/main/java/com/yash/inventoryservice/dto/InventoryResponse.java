@@ -1,4 +1,4 @@
-package dto;
+package com.yash.inventoryservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
