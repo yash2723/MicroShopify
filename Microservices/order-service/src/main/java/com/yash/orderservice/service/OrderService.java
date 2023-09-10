@@ -3,10 +3,12 @@ package com.yash.orderservice.service;
 import com.yash.orderservice.dto.InventoryResponse;
 import com.yash.orderservice.dto.OrderLineItemsDto;
 import com.yash.orderservice.dto.OrderRequest;
+import com.yash.orderservice.event.OrderPlacedEvent;
 import com.yash.orderservice.model.Order;
 import com.yash.orderservice.model.OrderLineItems;
 import com.yash.orderservice.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -21,6 +23,7 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
     private final WebClient.Builder webClientBuilder;
+    private final KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
     public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -45,6 +48,7 @@ public class OrderService {
         boolean allProductsInStock = Arrays.stream(inventoryResponses).allMatch(InventoryResponse::isInStock);
         if(allProductsInStock) {
             orderRepository.save(order);
+            kafkaTemplate.send("Notification", new OrderPlacedEvent(order.getOrderNumber()));
             return "Order Placed Successfully.";
         }
         else {
