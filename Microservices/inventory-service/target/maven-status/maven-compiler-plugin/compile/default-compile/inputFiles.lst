@@ -1,5 +1,6 @@
 D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\service\InventoryService.java
 D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\controller\InventoryController.java
+D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\dto\InventoryResponse.java
 D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\InventoryServiceApplication.java
 D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\model\Inventory.java
 D:\Coding Journey\Implementation\Spring Boot Microservices\Microservices\inventory-service\src\main\java\com\yash\inventoryservice\repository\InventoryRepository.java

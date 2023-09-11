@@ -1,9 +1,13 @@
 com\yash\orderservice\dto\OrderRequest.class
-com\yash\orderservice\service\OrderService.class
-com\yash\orderservice\model\OrderLineItems$OrderLineItemsBuilder.class
-com\yash\orderservice\OrderServiceApplication.class
 com\yash\orderservice\controller\OrderController.class
 com\yash\orderservice\model\Order.class
 com\yash\orderservice\model\OrderLineItems.class
-com\yash\orderservice\dto\OrderLineItemsDto.class
+com\yash\orderservice\dto\InventoryResponse$InventoryResponseBuilder.class
+com\yash\orderservice\event\OrderPlacedEvent.class
 com\yash\orderservice\repository\OrderRepository.class
+com\yash\orderservice\service\OrderService.class
+com\yash\orderservice\dto\InventoryResponse.class
+com\yash\orderservice\model\OrderLineItems$OrderLineItemsBuilder.class
+com\yash\orderservice\OrderServiceApplication.class
+com\yash\orderservice\dto\OrderLineItemsDto.class
+com\yash\orderservice\config\WebClientConfig.class

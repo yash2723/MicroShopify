@@ -65,6 +65,19 @@
           </excludes>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>jib-maven-plugin</artifactId>
+        <configuration>
+          <from>
+            <image>eclipse-temurin:17.0.4.1_1-jre</image>
+          </from>
+          <to>
+            <image>registry.hub.docker.com/yash2723/${project.artifactId}</image>
+          </to>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
